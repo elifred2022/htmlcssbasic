@@ -1,0 +1,8 @@
+h2 + p { /*este es el combinadro herrmano cercano le da estilo a las etiqueta que tiene al lado*/
+    color: red;
+}
+
+h3 ~ p { /*este es el combinador de hermano general. el tilde ~ se hace con alt+126, y se usa para llamar el harmano general*/
+    color: blue;
+}
+

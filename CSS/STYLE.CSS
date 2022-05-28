@@ -1,0 +1,33 @@
+/* esta e4s la forma mas basica de hacer estilos que tiene html*/
+p {
+    color: blue;
+    font-style: oblique;
+    font-size: 50px;
+
+}
+
+/* CLASES: otra manera de llamar CIERTAS ETIQUETAS para darle estilo. asi se hacen los comentarios en css*/
+
+    .parafo {
+        color: chartreuse;
+        font-style: inherit;
+        font-size: 60px;
+    } 
+.texto {
+    color: darkgoldenrod;
+    font-size: 100px;
+    font-style: normal;
+}
+
+/* ID: otra manera DE LLAMAR es con el ID SE LLAMA CON #*/
+
+#LINEA{
+    color: blueviolet;
+    font-style: initial;
+    font-size: 100 px;
+}
+
+
+
+
+

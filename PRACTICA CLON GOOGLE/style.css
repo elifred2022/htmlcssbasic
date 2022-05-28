@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+
+.nav {
+    background-color: white;
+    padding: 20px;
+    list-style: none;
+    text-align: right;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 20px;
+    margin: 10 px 0;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.tamaño {
+    width: 40vw;
+    height: 30vh;
+ }
+
+ .posicion {
+    display: flex;
+    justify-content: center;
+ }
+
+ .caja {
+    display: flex;
+    justify-content: center;
+ }
+
+ .tambus {
+     font-size: 1.8rem;
+ }

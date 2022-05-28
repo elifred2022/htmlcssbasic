@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.container {
+    justify-content: space-evenly; /*lo distribuye los espacio perfectamente*/
+                                 /* escribir; space-around, para colocar espacios entre los objetos, y los ditrbuye de forma equitativa*/
+                                /* para centrar los objetos, escibir; center*/
+                                /*para tirarlo a la derecha escribir; end*/
+                                /*para tirarlo a la izquierda viene por defaoult escribir; start*/
+    display: flex;
+    flex-wrap: wrap; /* o usas el flex wrap: wrap-reverse*/
+    border: .3px solid black;
+}
+
+.box {
+    width: 10rem;
+    height: 10rem;
+}
+
+.box1 {
+    background-color: blue;
+    color: aqua;
+}
+
+.box2 {
+    background-color: aqua;
+    color: blueviolet;
+}
+
+.box3 {
+    background-color: chartreuse;
+    color: brown;
+}
+
+.box4 {
+    background-color: green;
+    color: cadetblue;
+}
+
+.box5 {
+    background-color: pink;
+    color: white;
+}
+
+.box6 {
+    background-color: blue;
+    color: cornflowerblue;
+}

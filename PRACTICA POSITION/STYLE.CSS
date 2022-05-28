@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+
+.container {
+   display: block;
+    align-items: center;
+    border: .3px solid black; 
+    /*display: table-cell;  esto se usa para centrar objetos verticalmente*/
+    /*vertical-align: middle; esto se usa para centrar objetos verticalmente*/
+
+}
+
+
+.box1 {
+    background-color: blue;
+    color: white;
+    height: 5rem;
+    font-size: 2rem;
+    width: 25rem;
+    margin-left: auto; /* para centar obejtos horizontalemente*/
+    margin-right: auto; /* para centar obejtos horizontalemente*/
+    text-align: center; /* para centar texto*/
+    position: relative;
+    top: 15px;
+
+}
+
+
+.box2 {
+    background-color: aqua;
+    color: black;
+    height: 30rem;
+    font-size: 2rem;
+    width: 30rem;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    
+}
+
+
+

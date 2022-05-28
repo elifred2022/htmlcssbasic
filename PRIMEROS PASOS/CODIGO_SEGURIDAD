@@ -1,0 +1,44 @@
+<doctype html>
+    <html Lang=”es”>
+    <head>
+    <meta charset= “UTF-8” />
+    <meta name=”description” content= “este es mi proyecto de amprender pag web” />
+    <meta name=”robots” content= “index, follow” />
+    <title> aprendiendo html </title>
+        <meta name= “viewport” content= “width=device-width, inictial-scale=1.0”>
+        <link rel=”stylesheet” href=”./css/style.css”>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <H1>LISTA DEL SUPEMERCADO</H1>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <article>
+
+                </article>
+            </section>
+            <ul> <meta name=" significa lista desordenada unorder list"/>
+
+                <li> <meta name=" significa list item"> "soy una lista desordenada"</li>
+
+            </ul>
+            <ol> <meta name=" significa lista desordenada order list"/>
+
+                <li>soy una lista ordenana</li>
+
+            </ol>
+        </main>
+        <footer>
+            
+        </footer>
+
+        <p> soy la etiqueta de texto</p> <meta name="etiaueta de texto"/>
+        <h1> soy un titulo</h1> <meta name="esta etiqueta es para los titulos mientas el h es menor mas grande es la letra">
+        <a href="#"> soy un link</a> <meta name="etieuta de hiperinculos">
+
+    </body>
+    
+</html>

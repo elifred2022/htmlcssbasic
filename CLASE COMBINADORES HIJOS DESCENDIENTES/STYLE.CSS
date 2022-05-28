@@ -1,0 +1,9 @@
+div > p { /*hijo directo*/
+    color: red;
+}
+
+/*
+div  p {
+    color: red;
+} */
+

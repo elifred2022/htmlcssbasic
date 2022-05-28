@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main { /*se puede dar colo de fondo y se juega segun la necesidad en un 100 o 50 poiento*/
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(50, 73, 205);
+}
+
+section {
+    width: 80%; /*siempre el width debe ser en porcentaje*/
+    min-width: 320px;
+    max-width: 500px;
+    min-height: 500px; /* con esto se limita que no salga el texto de la seccion o algun contenedor*/
+    background-color: rgb(187, 36, 69);
+    margin: 0 auto;
+}
+

@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+p {
+    font-size: 2rem; /* siempre un rem va a ser 16px lo toma del origen de a pagina html*/
+} /* 1em=10px */
+
+/* DE ESTA MANERA RECOMIENDA INICCAR EL CSS*/
+

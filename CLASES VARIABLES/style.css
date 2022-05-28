@@ -1,0 +1,81 @@
+:root {
+    --pimary-color: blue;   /* para declarar variables escribir; (--XXXXX: XXX) */
+    --secundary-color: yellow;
+    --tercer-color: red;
+    --headder-size: 4rem; 
+    --font: 1.8rem; /*para el tamaño de la fuente*/
+    --font-color: white;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1rem;
+}
+
+header {
+    width: 100vw;
+    height: 15vh;
+    background-color: var(--secundary-color);
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+main {
+    width: 100vw;
+    height: 70vh;
+    font-size: 1.6em;
+    background-color: var(--pimary-color);
+    color: var(--font-color);
+    
+    
+   
+}
+
+section {
+    text-align: justify;
+
+    /*align-items: center;
+   
+    display: table-cell; */
+
+    
+}
+
+.posicion {
+    display: flex;
+    justify-content: center;
+ }
+
+ .fototamaño {
+    width: 20vw;
+    height: 40vh;
+ }
+
+
+H1 {
+    font-size: 4rem;
+    color: var(--font-color);
+}
+
+footer {
+    width: 100vw;
+    height: 15vh;
+    background-color: var(--tercer-color);
+}

@@ -1,0 +1,9 @@
+body {
+    font-size: 20px;
+}
+.text-container {
+    font-size: 1em; /* (em) le da tamaño a las letras fuentes*/
+}
+
+/* ojo em genera problemas por q les multiplica las medidas en el sistema de cascada ej si olocamos un em 1.5 va a multiplica la que viene de arriba por 1.5*/
+/*es mejor usar rem*/

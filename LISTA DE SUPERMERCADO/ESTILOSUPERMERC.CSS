@@ -1,0 +1,43 @@
+.TITULO{
+    color: blue;
+    font-style: oblique;
+    font-size: 80px;
+}
+
+.subti{
+    color: darkgoldenrod;
+    font-size: 20px;
+}
+
+.pie{
+    color: chartreuse;
+    font-size: 30px;
+
+}
+
+figure{
+    color: aqua;
+}
+
+/*.ZANAHORIA{
+    size: 0cm;
+    width: 125px;
+    height: 250px;
+}*/
+
+img{
+    size: 0cm;
+    width: 175px;
+    height: 350px;
+
+}
+
+/* ASI SE MANIPULA LA POSIION Y EL TMAÑO INDIVIDUALMENTE, 
+EN LA DE ARRIBA LO MANDE HACER EL MISMO TAMAÑO ÀRA TODAS LAS IMAGINES USANDO LA ETIQUETA IMG
+    .zanahoria{
+    position:absolute;
+    left: 0;
+    top: 0;
+    width: 350px;
+    height: 500px;*/
+

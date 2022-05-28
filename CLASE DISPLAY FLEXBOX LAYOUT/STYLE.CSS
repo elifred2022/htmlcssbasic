@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.container {
+    /*justify-content: space-evenly; /*lo distribuye los espacio perfectamente*/
+                                 /* escribir; space-around, para colocar espacios entre los objetos, y los ditrbuye de forma equitativa*/
+                                /* para centrar los objetos, escibir; center*/
+                                /*para tirarlo a la derecha escribir; end*/
+                                /*para tirarlo a la izquierda viene por defaoult escribir; start*/
+    display: flex;
+    
+    /*height: 50vh; ESTO ES ALTURA*/
+    
+    /*align-items: baseline;*/
+                        /*center; centra los cuadros*/
+                        /* tambien se puede usar; flex-start o flex-end*/
+                        /*strecht; estira el contenedor al tamaño de su padre*/
+
+    flex-wrap: wrap; /* o usas el flex wrap: wrap-reverse*/
+    
+    border: .3px solid black; 
+
+}
+
+.box {
+    /* width: 10rem; QUITAMOS ESTE PARA UN EXPERIMENTO CON EL FLEX BASIS*/
+    height: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
+}
+
+.box1 {
+    background-color: blue;
+    color: black;
+    /*flex-grow: 1;*/
+    /*order: 3; /*con este comando le oloamos el orden que queremos que aparezcan*/
+    
+}
+
+.box2 {
+    background-color: aqua;
+    color: black;
+    /*flex-grow: 1; este comando hace crecer el objeto mietras se estira la pantalla para q no quede epacios en blanco*/
+    /* order: 1; /*con este comando le oloamos el orden que queremos que aparezcan*/
+}
+
+.box3 {
+    background-color: chartreuse;
+    color: black;
+    /* order: 2; /*con este comando le oloamos el orden que queremos que aparezcan*/
+}
+
+.box4 {
+    background-color: green;
+    color: black;
+    /* order: 5; /*con este comando le oloamos el orden que queremos que aparezcan*/
+}
+
+.box5 {
+    background-color: pink;
+    color: black;
+    /* order: 6; /*con este comando le oloamos el orden que queremos que aparezcan*/
+}
+
+.box6 {
+    background-color: blue;
+    color: black;
+    /* order: 4; /*con este comando le oloamos el orden que queremos que aparezcan*/
+}

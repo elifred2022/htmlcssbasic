@@ -1,0 +1,36 @@
+.main-nav{
+    margin-top: 10px;
+    list-style: none; /*esto es para quitarle los puntos a las listas desordenadas*/
+    padding-left: 0px;
+    background-color: aqua; /*esta etiqueta es para dar fondo de color a las paginas*/
+}
+
+.main-nav__item{
+    display: inline-block; /*etiqueta para coloar las listas de manera lineal*/
+}
+
+.main-nav__item a{
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+    background-color: red;
+}
+
+/*estas son las pseudoclases*/
+.main-nav__item a:hover { /*esta se usa para cuando el cuso del mause se ponga ensima de una palabra cambie de color la palabra*/
+
+    color: blue;
+
+} 
+
+/*eset es pseudoclase para cuando el se le de clik a la plabaa cambie de color*/
+.main-nav__item a:active{
+    color: yellow;
+}
+
+/* pseudo elemento se llaman con a:: despues del elemento ancla le agrega el contenido que colocamos entre comillas
+es como para separar las palbras*/
+.main-nav__item a::after{
+    content: " / ";
+}
